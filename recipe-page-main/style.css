@@ -1,0 +1,114 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+@font-face {
+  font-family: "Young Serif";
+  src: url("C:\Users\L\AppData\Local\Python\for read\Html\recipe-page-main/YoungSerif-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #f3e5d8;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Young Serif;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+}
+
+h3 {
+  color: hsl(332, 51%, 32%);
+  font-family: sans-serif;
+  margin-left: 20px;
+}
+.container {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 30px;
+  margin: 100px auto 100px auto;
+  border-radius: 20px;
+}
+
+.recipe-img {
+  width: 500px;
+  height: auto;
+}
+
+.recipe-description {
+  font-family: Outfit;
+  font-size: 12px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  display: inline-block;
+  color: #535252;
+}
+
+.recipe-preparation-list-container {
+  border: 2px solid;
+  border-style: none;
+  background-color: rgb(243, 229, 216, 0.5);
+  padding: 3px 10px 10px 10px;
+  border-radius: 10px;
+}
+
+.recipe-preparation-list {
+  font-size: 10px;
+}
+
+li span {
+  position: relative;
+  left: 20px;
+  color: #535252;
+  font-family: Outfit;
+  font-size: 14px;
+}
+
+.recipe-ingredients-list {
+  font-size: 10px;
+  margin-bottom: 40px;
+}
+
+.horizintil-line {
+  border: none;
+  height: 1.5px;
+  margin: 20px auto;
+  background-color: rgb(243, 229, 216);
+}
+
+.recipe-instructions-list {
+  margin-right: 25px;
+}
+
+ol li::marker {
+  color: hsl(332, 51%, 32%);
+  font-family: Outfit;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.recipe-nutrition-description {
+  color: #535252;
+  font-family: Outfit;
+  font-size: 14px;
+}
+
+.recipe-nutrition-list li {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 250px auto;
+}
+
+.recipe-nutrition-list li span {
+  color: hsl(332, 51%, 32%);
+}
