@@ -1,2 +1,2 @@
 # Recipe-Page-Main
-A recipe page from from Fronted Mentor for training
+A recipe page from Fronted Mentor for training
